@@ -10,3 +10,10 @@
 # Outputs:
 # "the number is an integer"
 # "the number is not an integer"
+x = input()
+decimal = "."
+
+if decimal not in x:
+    print("the number is an integer")
+else:
+    print("the number is not an integer")

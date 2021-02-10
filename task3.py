@@ -17,3 +17,13 @@
 # "2" : The number is 100 or a number up to 1000 
 # "1" : The number is 10 or a number up to 100 
 # "0" : The number is 0 or a number up to 100 
+x = int(input(""))
+
+if x > 1000:
+    print("3")
+elif x > 100:
+    print("2")
+elif x > 10:
+    print("1")
+elif x > 0:
+    print("0")

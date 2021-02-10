@@ -9,3 +9,13 @@
 # include hidden characters (the carriage return) that will
 # not match
 # 1 marks
+username = input()
+
+if username == "admin":
+    password = input("passowrd:")
+    if password == "12345password":
+        print("Access granted")
+    else:
+        print("wrong password")
+else:
+    print("invalid user")
