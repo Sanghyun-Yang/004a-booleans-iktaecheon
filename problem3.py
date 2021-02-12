@@ -18,4 +18,4 @@ if username == "admin":
     else:
         print("wrong password")
 else:
-    print("invalid user")
+    print("Access granted")
